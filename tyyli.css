@@ -134,3 +134,31 @@ a:active {
         width: 70%; /* Adjust content width for medium screens */
     }
 }
+/* Responsiivisuus */
+
+/* Pienemmille näytöille (max leveys 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar, .content {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+/* Pienille puhelimille (max leveys 480px) */
+@media only screen and (max-width: 480px) {
+    .header a {
+        font-size: 14px;
+    }
+    .sidebar img {
+        width: 120px;
+    }
+    .content h1 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+}
