@@ -30,7 +30,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 70px; /* Varataan tila kiinteälle headerille */
+    padding-top: 70px;
 }
 
 /* Sivupalkin tyyli */
@@ -74,7 +74,6 @@ body {
 .content h3 {
     font-size: 18px;
 	line-height:1;
-	color: #81E5E0
 }
 .content p {
     font-size: 16px;
@@ -107,7 +106,7 @@ a:hover, a:active {
 /* Pienille puhelimille (max leveys 480px) */
 @media only screen and (max-width: 480px) {
     .header a {
-        font-size: 14px;
+        font-size: 12px;
     }
     .sidebar img {
         width: 120px;
