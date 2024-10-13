@@ -36,7 +36,7 @@ body {
 /* Sivupalkin tyyli */
 .sidebar {
     width: 15%;
-	height: 600px;
+	height: 400px;
     background-color: #71CCC8;
     padding: 15px;
     box-sizing: border-box;
