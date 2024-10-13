@@ -35,7 +35,8 @@ body {
 
 /* Sivupalkin tyyli */
 .sidebar {
-    width: %;
+    width: 15%;
+	height: 600px;
     background-color: #71CCC8;
     padding: 15px;
     box-sizing: border-box;
@@ -44,7 +45,7 @@ body {
 
 .sidebar img {
     width: 150px;
-    height: auto;
+    height: 170px;
     margin-bottom: 20px;
 }
 
@@ -62,23 +63,28 @@ body {
 
 .content h1 {
     font-size: 24px;
-    color: #68C2BD;
+    color:#000000;
+	font-weight:bold;
     margin-bottom: 20px;
 }
 
  .content h2 {
     font-size: 20px;
-	line-height:1;
+	line-height:1.2;
 			
 }
 .content h3 {
-    font-size: 18px;
-	line-height:1;
+    font-size: 20px;
+	line-height:1.2;
 }
 .content p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+.form label, form input, form textarea {
+    margin-bottom: 10px;
+    display: block;
 }
 
 /* Linkkien tyyli */
@@ -125,5 +131,4 @@ a:hover, a:active {
 }
 .content h3 {
     font-size: 18px;
-	line-height:;
 }
