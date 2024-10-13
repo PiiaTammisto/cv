@@ -115,7 +115,8 @@ a:hover, a:active {
         font-size: 12px;
     }
     .sidebar img {
-        width: 75%;
+        width: 120px;
+		heigth: 146px;
 
     }
     .content h1 {
